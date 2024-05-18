@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes Generator</title>
+    <!-- Bootstrap & Font Awesome-->
+    <!-- Bootstrap CSS & Font Awesome -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="container p-3 mb-2">
+        <h1 class="text-center fw-bold mt-5">Quote of the Day</h1>
+        <p class="lead text-center mt-5 fw-bold text-light bg-warning">Press the button below to recieve a random quote!</p>
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <button class="btn btn-primary btn-custom w-75 w-md-50 w-lg-25 mt-5" type="button" onclick="showQuote()">New Quote</button>            </div>
+
+            <!-- Quote Display Section -->
+        <div class="col-12 mt-0">
+            <blockquote class="blockquote text-center" id="quoteContainer">
+                <p id="quote" class="mb-0">"It's not what happens to you, but how you react to it that matters."</p>
+                <footer class="blockquote-footer mt-3" id="author"><span class="fst-italic">by: </span>Epictetus</footer>
+            </blockquote>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JS-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

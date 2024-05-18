@@ -1,0 +1,118 @@
+body {
+    background-color: #ebeff4; /* Bootstrap light color */
+    font-family: 'Arial', sans-serif;
+    color: #343a40; /* Bootstrap dark color */
+    padding-top: 5rem; /* Bootstrap pt-5 */
+}
+
+h1 {
+    font-size: 5rem;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    margin-top: 50px; 
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+h1 {
+        font-size: 5rem;
+        color: #333;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        font-family: Arial, sans-serif; 
+        text-align: center; 
+        margin-top: 50px; 
+        animation: fadeIn 2s ease-in-out 1; /* Apply the animation */
+}
+
+@keyframes slideIn {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+p.lead {
+        font-size: 1.5rem;
+        color: #28a745; /* Bootstrap success color */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        margin-top: 5rem; /* Bootstrap mt-5 */
+        font-weight: bold; /* Bootstrap fw-bold */
+        animation: slideIn 3s ease-in-out 1;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.btn-custom {
+    font-size: 1.5rem;
+    color: #fff; /* Bootstrap primary button text color */
+    background-color: #007bff; /* Bootstrap primary button background color */
+    border-color: #007bff; /* Bootstrap primary button border color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 5rem; /* Bootstrap mt-5 */
+    font-weight: bold; /* Bootstrap fw-bold */
+    animation: pulse 2s infinite; /* Apply the pulse animation */
+    transition: all 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.btn-custom:hover {
+    background-color: #e1ebf6; /* Darken the background color */
+    border-color: #0b0b0b;
+    color: #28a745; /* Darken the border color */
+    transform: scale(1.1); /* Increase the size of the button */
+}
+
+.blockquote {
+    border-left: 10px solid #007bff; /* Bootstrap primary color */
+    background-color: #f8f9fa; /* Bootstrap light color */
+    padding: 20px;
+    font-family: 'Georgia', serif;
+    margin-top: 5rem; /* Bootstrap mt-5 */
+}
+
+#quote {
+    font-size: 2rem;
+    color: #343a40; /* Bootstrap dark color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.blockquote-footer {
+    font-size: 1.5rem;
+    color: #6c757d; /* Bootstrap secondary color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.blockquote {
+    border-left: 10px solid #007bff; /* Bootstrap primary color */
+    background-color: #f8f9fa; /* Bootstrap light color */
+    padding: 20px;
+    font-family: 'Georgia', serif;
+    margin-top: 5rem; /* Bootstrap mt-5 */
+    animation: fadeIn 2s ease-in-out 1; /* Apply the fade-in animation */
+}
+
+#quote {
+    font-size: 2rem;
+    color: #343a40; /* Bootstrap dark color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.blockquote-footer {
+    font-size: 1.5rem;
+    color: #6c757d; /* Bootstrap secondary color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
